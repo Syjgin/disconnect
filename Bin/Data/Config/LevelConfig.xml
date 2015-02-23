@@ -1,0 +1,13 @@
+<level>
+  <buildings>
+    <building name="building1" count="3"/>
+    <building name="building2" count="3"/>
+    <building name="building3" count="3"/>
+  </buildings>
+  <garbage>
+    <garbageElement name="oildrum" count="45"/>
+  </garbage>
+  <minimalRouterCount val="3"></minimalRouterCount>
+  <minimalBuildingsDist val="50"></minimalBuildingsDist>
+  <mapDimension val="600"></mapDimension>
+</level>

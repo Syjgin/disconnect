@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<element type="BorderImage">
+	<attribute name="Size" value="1024 768" />
+	<attribute name="Horiz Alignment" value="Center" />
+	<attribute name="Vert Alignment" value="Center" />
+	<attribute name="Variables">
+		<variant hash="-1466476125" type="Int" value="2" name="A89759A3" />
+		<variant hash="633459751" type="String" value="" name="25C1D427" />
+		<variant hash="-1908429431" type="Bool" value="true" name="8E3FAD89" />
+	</attribute>
+	<attribute name="Image Rect" value="0 0 256 128" />
+</element>

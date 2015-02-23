@@ -1,0 +1,4 @@
+Materials/JoinedMaterial_#2.xml
+Materials/%%%DEFAULT.xml
+Materials/Building.xml
+Materials/JoinedMaterial_#2.xml

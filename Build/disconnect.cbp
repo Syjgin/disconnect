@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="disconnect" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Urho3D-1.32\;CMake Files\..\..\Urho3D-1.32\Source\;CMake Files\..\..\Urho3D-1.32\Source\CMake\;CMake Files\..\..\Urho3D-1.32\Source\CMake\Modules\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/syjgin/projects/helloUrho/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="disconnect">
+         <Option output="/home/syjgin/projects/helloUrho/Bin/disconnect" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/syjgin/projects/helloUrho/Bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DURHO3D_SSE" />
+            <Add option="-DURHO3D_PROFILING" />
+            <Add option="-DURHO3D_LOGGING" />
+            <Add option="-DUNIX" />
+            <Add option="-DURHO3D_OPENGL" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-DGLEW_NO_GLU" />
+            <Add option="-DURHO3D_ANGELSCRIPT" />
+            <Add option="-DURHO3D_NAVIGATION" />
+            <Add option="-DURHO3D_NETWORK" />
+            <Add option="-DURHO3D_PHYSICS" />
+            <Add option="-DURHO3D_URHO2D" />
+            <Add option="-DURHO3D_STATIC_DEFINE" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Build/Engine" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Audio" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Container" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Core" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Engine" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Graphics" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/IO" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Input" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/LuaScript" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Math" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Navigation" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Network" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Physics" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Resource" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Scene" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Script" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/UI" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Urho2D" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/AngelScript/include" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/Box2D" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/Bullet/src" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/SDL/include" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/kNet/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 disconnect" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="disconnect/fast">
+         <Option output="/home/syjgin/projects/helloUrho/Bin/disconnect" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/syjgin/projects/helloUrho/Bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DURHO3D_SSE" />
+            <Add option="-DURHO3D_PROFILING" />
+            <Add option="-DURHO3D_LOGGING" />
+            <Add option="-DUNIX" />
+            <Add option="-DURHO3D_OPENGL" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-DGLEW_NO_GLU" />
+            <Add option="-DURHO3D_ANGELSCRIPT" />
+            <Add option="-DURHO3D_NAVIGATION" />
+            <Add option="-DURHO3D_NETWORK" />
+            <Add option="-DURHO3D_PHYSICS" />
+            <Add option="-DURHO3D_URHO2D" />
+            <Add option="-DURHO3D_STATIC_DEFINE" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Build/Engine" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Audio" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Container" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Core" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Engine" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Graphics" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/IO" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Input" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/LuaScript" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Math" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Navigation" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Network" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Physics" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Resource" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Scene" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Script" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/UI" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/Engine/Urho2D" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/AngelScript/include" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/Box2D" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/Bullet/src" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/SDL/include" />
+            <Add directory="/home/syjgin/projects/Urho3D-1.32/Source/ThirdParty/kNet/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 disconnect/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/syjgin/projects/helloUrho/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/syjgin/projects/helloUrho/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/syjgin/projects/helloUrho/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/Hero.cpp">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/LevelCamera.cpp">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/LevelConfigReader.cpp">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/LevelSceneManager.cpp">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/MainMenuSceneManager.cpp">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/mainApp.cpp">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/AbstractSceneManager.h">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/Hero.h">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/LevelCamera.h">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/LevelConfigReader.h">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/LevelSceneManager.h">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/MainMenuSceneManager.h">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/mainApp.h">
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/../../Urho3D-1.32/Source/CMake/Modules/Urho3D-CMake-common.cmake">
+          <Option virtualFolder="CMake Files\..\..\Urho3D-1.32\Source\CMake\Modules\" />
+      </Unit>
+      <Unit filename="/home/syjgin/projects/helloUrho/Source/../../Urho3D-1.32/Source/CMake/Modules/FindUrho3D.cmake">
+          <Option virtualFolder="CMake Files\..\..\Urho3D-1.32\Source\CMake\Modules\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

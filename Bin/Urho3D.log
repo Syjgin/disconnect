@@ -1,0 +1,13 @@
+[Thu Jan  8 18:34:56 2015] INFO: Opened log file Urho3D.log
+[Thu Jan  8 18:34:56 2015] INFO: Created 3 worker threads
+[Thu Jan  8 18:34:56 2015] INFO: Added resource path /home/syjgin/projects/helloUrho/Bin/Data/
+[Thu Jan  8 18:34:56 2015] INFO: Added resource path /home/syjgin/projects/helloUrho/Bin/CoreData/
+[Thu Jan  8 18:34:56 2015] WARNING: Skipped autoload folder Extra as it does not exist
+[Thu Jan  8 18:34:56 2015] INFO: Set screen mode 1024x768 windowed
+[Thu Jan  8 18:34:56 2015] INFO: Initialized input
+[Thu Jan  8 18:34:56 2015] INFO: Initialized user interface
+[Thu Jan  8 18:34:56 2015] INFO: Initialized renderer
+[Thu Jan  8 18:34:56 2015] INFO: Set audio mode 44100 Hz stereo interpolated
+[Thu Jan  8 18:34:56 2015] INFO: Initialized engine
+[Thu Jan  8 18:34:56 2015] INFO: Loading scene from Scenes/mainMenuScene.xml
+[Thu Jan  8 18:35:03 2015] INFO: Loading scene from Scenes/levelScene.xml

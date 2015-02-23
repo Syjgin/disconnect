@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++1y -Wno-invalid-offsetof -ffast-math -m64 -O3 -DNDEBUG    CMakeFiles/disconnect.dir/mainApp.cpp.o  -o /home/syjgin/projects/helloUrho/Bin/disconnect -rdynamic /home/syjgin/projects/Urho3D-1.32/Lib/libUrho3D.a -ldl -lpthread -lrt -lpthread -lpthread -lGL -lrt -lGL 

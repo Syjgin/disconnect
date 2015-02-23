@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<element type="Window">
+	<attribute name="Position" value="100 100" />
+	<attribute name="Size" value="100 30" />
+	<attribute name="Variables">
+		<variant hash="-1466476125" type="Int" value="2" name="A89759A3" />
+		<variant hash="633459751" type="String" value="" name="25C1D427" />
+		<variant hash="-1908429431" type="Bool" value="true" name="8E3FAD89" />
+	</attribute>
+	<element type="Button">
+		<attribute name="Name" value="findRobot" />
+		<attribute name="Size" value="100 30" />
+		<attribute name="Variables">
+			<variant hash="-1466476125" type="Int" value="3" name="A89759A3" />
+		</attribute>
+		<element type="Text">
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Vert Alignment" value="Center" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Variables">
+				<variant hash="-1466476125" type="Int" value="4" name="A89759A3" />
+			</attribute>
+			<attribute name="Text" value="find robot" />
+			<attribute name="Text Alignment" value="Center" />
+		</element>
+	</element>
+</element>
