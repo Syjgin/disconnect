@@ -1,1 +1,0 @@
-/home/syjgin/projects/helloUrho/build-Source-Desktop-Default/CMakeFiles/disconnect.dir
