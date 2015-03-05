@@ -1,81 +1,85 @@
 <?xml version="1.0"?>
-<element type="Window">
-	<attribute name="Name" value="background" />
-	<attribute name="Size" value="200 200" />
+<element type="BorderImage">
+	<attribute name="Size" value="1024 768" />
 	<attribute name="Horiz Alignment" value="Center" />
 	<attribute name="Vert Alignment" value="Center" />
-	<attribute name="Layout Mode" value="Vertical" />
-	<attribute name="Layout Spacing" value="10" />
-	<attribute name="Layout Border" value="10 10 10 10" />
 	<attribute name="Variables">
 		<variant hash="-1466476125" type="Int" value="2" name="A89759A3" />
-		<variant hash="633459751" type="String" value="/home/syjgin/projects/helloUrho/Bin/Data/UI/mainMenu.xml" name="25C1D427" />
+		<variant hash="633459751" type="String" value="" name="25C1D427" />
 		<variant hash="-1908429431" type="Bool" value="true" name="8E3FAD89" />
 	</attribute>
-	<element type="Button">
-		<attribute name="Name" value="new" />
+	<attribute name="Texture" value="Texture2D;Textures/menu_bg.png" />
+	<attribute name="Image Rect" value="0 0 256 128" />
+	<element type="Window">
+		<attribute name="Name" value="background" />
+		<attribute name="Size" value="200 200" />
 		<attribute name="Horiz Alignment" value="Center" />
+		<attribute name="Vert Alignment" value="Center" />
+		<attribute name="Layout Mode" value="Vertical" />
+		<attribute name="Layout Spacing" value="10" />
+		<attribute name="Layout Border" value="10 10 10 10" />
 		<attribute name="Variables">
-			<variant hash="-1466476125" type="Int" value="3" name="A89759A3" />
+			<variant hash="-1466476125" type="Int" value="2" name="A89759A3" />
+			<variant hash="633459751" type="String" value="/home/syjgin/projects/helloUrho/Bin/Data/UI/mainMenu.xml" name="25C1D427" />
+			<variant hash="-1908429431" type="Bool" value="true" name="8E3FAD89" />
+			<variant hash="-173153518" type="String" value="/home/syjgin/projects/disconnect/Bin/Data/UI/mainMenu.xml" name="F5ADE312" />
 		</attribute>
-		<element type="Text">
+		<element type="Button">
+			<attribute name="Name" value="new" />
 			<attribute name="Horiz Alignment" value="Center" />
-			<attribute name="Vert Alignment" value="Center" />
-			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
 			<attribute name="Variables">
-				<variant hash="-1466476125" type="Int" value="6" name="A89759A3" />
+				<variant hash="-1466476125" type="Int" value="3" name="A89759A3" />
 			</attribute>
-			<attribute name="Text" value="new" />
+			<element type="Text">
+				<attribute name="Horiz Alignment" value="Center" />
+				<attribute name="Vert Alignment" value="Center" />
+				<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Variables">
+					<variant hash="-1466476125" type="Int" value="6" name="A89759A3" />
+				</attribute>
+				<attribute name="Text" value="new" />
+			</element>
+		</element>
+		<element type="Button">
+			<attribute name="Name" value="settings" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Variables">
+				<variant hash="-1466476125" type="Int" value="4" name="A89759A3" />
+			</attribute>
+			<element type="Text">
+				<attribute name="Horiz Alignment" value="Center" />
+				<attribute name="Vert Alignment" value="Center" />
+				<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Variables">
+					<variant hash="-1466476125" type="Int" value="7" name="A89759A3" />
+				</attribute>
+				<attribute name="Text" value="settings" />
+			</element>
+		</element>
+		<element type="Button">
+			<attribute name="Name" value="exit" />
+			<attribute name="Horiz Alignment" value="Center" />
+			<attribute name="Variables">
+				<variant hash="-1466476125" type="Int" value="5" name="A89759A3" />
+			</attribute>
+			<element type="Text">
+				<attribute name="Horiz Alignment" value="Center" />
+				<attribute name="Vert Alignment" value="Center" />
+				<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Variables">
+					<variant hash="-1466476125" type="Int" value="8" name="A89759A3" />
+				</attribute>
+				<attribute name="Text" value="exit" />
+			</element>
 		</element>
 	</element>
-	<element type="Button">
-		<attribute name="Name" value="settings" />
-		<attribute name="Horiz Alignment" value="Center" />
-		<attribute name="Variables">
-			<variant hash="-1466476125" type="Int" value="4" name="A89759A3" />
-		</attribute>
-		<element type="Text">
-			<attribute name="Horiz Alignment" value="Center" />
-			<attribute name="Vert Alignment" value="Center" />
-			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Variables">
-				<variant hash="-1466476125" type="Int" value="7" name="A89759A3" />
-			</attribute>
-			<attribute name="Text" value="settings" />
-		</element>
-	</element>
-	<element type="Button">
-		<attribute name="Name" value="exit" />
-		<attribute name="Horiz Alignment" value="Center" />
-		<attribute name="Variables">
-			<variant hash="-1466476125" type="Int" value="5" name="A89759A3" />
-		</attribute>
-		<element type="Text">
-			<attribute name="Horiz Alignment" value="Center" />
-			<attribute name="Vert Alignment" value="Center" />
-			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
-			<attribute name="Variables">
-				<variant hash="-1466476125" type="Int" value="8" name="A89759A3" />
-			</attribute>
-			<attribute name="Text" value="exit" />
-		</element>
-	</element>
-</element>
-<element type="Window">
-	<attribute name="Name" value="image" />
-	<attribute name="Size" value="200 200" />
-	<attribute name="Horiz Alignment" value="Center" />
-	<attribute name="Vert Alignment" value="Center" />
-	<attribute name="Layout Mode" value="Vertical" />
-	<attribute name="Layout Spacing" value="10" />
-	<attribute name="Layout Border" value="10 10 10 10" />
 </element>

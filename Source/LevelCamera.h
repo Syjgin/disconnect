@@ -14,6 +14,7 @@ const float MOUSE_SENSITIVITY = 0.5f;
 const float WHEEL_SENSITIVITY = 0.5f;
 const float BORDER_OFFSET = 5;
 const float CAMERA_VELOCITY = 0.5f;
+const float DIMENSION_COEF = 0.8f;
 
 class LevelCamera : public Object {
 

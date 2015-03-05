@@ -22,8 +22,25 @@ void LevelCamera::VerticalTranslate(float amount)
     Quaternion distilledRot;
     distilledRot.FromAngleAxis(currentRot, Vector3(0,1,0));
     Vector3 rotated = distilledRot.RotationMatrix() * Vector3(0,0,amount);
-    _cameraNode->Translate(rotated, TS_WORLD);
-    _centerPosition->Translate(rotated);
+
+    float initialLength = _centerPosition->GetWorldPosition().Length();
+
+    Vector3 futurePos = _centerPosition->GetWorldPosition();
+    futurePos += rotated;
+
+    if(futurePos.Length() < initialLength)
+    {
+        _cameraNode->Translate(rotated, TS_WORLD);
+        _centerPosition->Translate(rotated);
+    }
+    else
+    {
+        if(initialLength < _mapDimension*DIMENSION_COEF)
+        {
+            _cameraNode->Translate(rotated, TS_WORLD);
+            _centerPosition->Translate(rotated);
+        }
+    }
 }
 
 void LevelCamera::HorizontalTranslate(float amount)
@@ -32,8 +49,25 @@ void LevelCamera::HorizontalTranslate(float amount)
     Quaternion distilledRot;
     distilledRot.FromAngleAxis(currentRot, Vector3(0,1,0));
     Vector3 rotated = distilledRot.RotationMatrix() * Vector3(amount,0,0);
-    _cameraNode->Translate(rotated, TS_WORLD);
-    _centerPosition->Translate(rotated);
+
+    float initialLength = _centerPosition->GetWorldPosition().Length();
+
+    Vector3 futurePos = _centerPosition->GetWorldPosition();
+    futurePos += rotated;
+
+    if(futurePos.Length() < initialLength)
+    {
+        _cameraNode->Translate(rotated, TS_WORLD);
+        _centerPosition->Translate(rotated);
+    }
+    else
+    {
+        if(initialLength < _mapDimension*DIMENSION_COEF)
+        {
+            _cameraNode->Translate(rotated, TS_WORLD);
+            _centerPosition->Translate(rotated);
+        }
+    }
 }
 
 void LevelCamera::Update()
