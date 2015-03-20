@@ -13,6 +13,7 @@
 #include "Material.h"
 #include "ValueAnimation.h"
 #include "Log.h"
+#include "CollisionShape.h"
 
 #include <ctime>
 #include <iostream>
@@ -65,8 +66,12 @@ void LevelSceneManager::PlaceBuildings(int mapDimension, ResourceCache* cache, T
                     buildingWasPlaced = true;
                     Node* buildingNode = _scene->CreateChild(modelName+i);
                     buildingNode->SetPosition(position);
+                    Model * loadedModel = cache->GetResource<Model>("Models/"+modelName+".mdl");
+                    CollisionShape *shape = new CollisionShape(context_);
+                    shape->SetBox(loadedModel->GetBoundingBox().Size());
+                    buildingNode->AddComponent(shape, 100, CreateMode::LOCAL);
                     StaticModel* buildingModel = buildingNode->CreateComponent<StaticModel>();
-                    buildingModel->SetModel(cache->GetResource<Model>("Models/"+modelName+".mdl"));
+                    buildingModel->SetModel(loadedModel);
                     buildingModel->SetMaterial(cache->GetResource<Material>("Materials/Building.xml"));
                 }
             }
@@ -92,8 +97,7 @@ void LevelSceneManager::PlaceGarbage(int mapDimension, ResourceCache *cache, Ter
             garbageNode->SetPosition(position);
             StaticModel* garbageModel = garbageNode->CreateComponent<StaticModel>();
             garbageModel->SetModel(cache->GetResource<Model>("Models/"+modelName+".mdl"));
-            garbageModel->SetMaterial(cache->GetResource<Material>("Materials/"+modelName+"-ref-material.xml"));
-
+            garbageModel->SetMaterial(cache->GetResource<Material>("Materials/"+modelName+".xml"));
         }
     }
 }

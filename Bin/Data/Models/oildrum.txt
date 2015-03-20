@@ -1,1 +1,1 @@
-Materials/Oildrum-ref-material.xml
+Materials/oildrum.xml

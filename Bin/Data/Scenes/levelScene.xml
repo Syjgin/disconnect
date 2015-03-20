@@ -6,9 +6,9 @@
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="24.9999" />
 	<attribute name="Next Replicated Node ID" value="10" />
-	<attribute name="Next Replicated Component ID" value="14354" />
-	<attribute name="Next Local Node ID" value="16791560" />
-	<attribute name="Next Local Component ID" value="16777230" />
+	<attribute name="Next Replicated Component ID" value="16402" />
+	<attribute name="Next Local Node ID" value="16793608" />
+	<attribute name="Next Local Component ID" value="16777231" />
 	<attribute name="Variables" />
 	<attribute name="Variable Names" value="" />
 	<component type="Octree" id="1" />
@@ -36,6 +36,7 @@
 			<attribute name="Angular Velocity" value="0.041432 0 0" />
 			<attribute name="Is Kinematic" value="true" />
 		</component>
+		<component type="CollisionShape" id="16777230" />
 	</node>
 	<node id="16779266">
 		<attribute name="Is Enabled" value="true" />
@@ -66,15 +67,15 @@
 	<node id="16780291">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="light" />
-		<attribute name="Position" value="0 100 0" />
+		<attribute name="Position" value="0 200 0" />
 		<attribute name="Rotation" value="1 0 0 0" />
 		<attribute name="Scale" value="1 1 1" />
 		<attribute name="Variables" />
 		<component type="Light" id="3085">
 			<attribute name="Specular Intensity" value="0.8" />
 			<attribute name="Brightness Multiplier" value="1.33" />
-			<attribute name="Range" value="300" />
-			<attribute name="Light Shape Texture" value="TextureCube;" />
+			<attribute name="Range" value="3000" />
+			<attribute name="Light Shape Texture" value="TextureCube;Textures/Skybox.xml" />
 		</component>
 	</node>
 	<node id="16782341">
